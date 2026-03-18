@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify, render_template_string, make_response
 from flask_cors import CORS
 import pickle
-import pandas as pd
+
 import numpy as np
 import json
 import os
